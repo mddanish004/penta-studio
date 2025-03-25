@@ -148,12 +148,16 @@ export function ContactUs() {
         <div className="my-8 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-300 to-transparent dark:via-neutral-700" />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <a href="https://x.com/pentastudio" target="_blank" rel="noopener noreferrer">
-            <button className="group/btn shadow-input relative flex h-10 w-full items-center justify-start space-x-2 rounded-md bg-gray-50 px-4 font-medium text-black dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626]">
+          <a href="https://twitter.com/studiopentait" target="_blank" rel="noopener noreferrer">
+            <button 
+              type="button"
+              className="group/btn shadow-input relative flex h-10 w-full items-center justify-start space-x-2 rounded-md bg-gray-50 px-4 font-medium text-black dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626]"
+            >
               <IconBrandX className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
               <span className="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300">
                 Twitter
               </span>
+              <BottomGradient />
             </button>
           </a>
           <a href="mailto:studiopentait@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -180,7 +184,7 @@ export function ContactUs() {
               <BottomGradient />
             </button>
           </a>
-          <a href="https://wa.link/k5c8b4" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/+919876543210" target="_blank" rel="noopener noreferrer">
             <button
               className="group/btn shadow-input relative flex h-10 w-full items-center justify-start space-x-2 rounded-md bg-gray-50 px-4 font-medium text-black dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626]"
               type="button"

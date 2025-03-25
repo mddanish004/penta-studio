@@ -96,6 +96,7 @@ export const AnimatedTestimonials = ({
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -20, opacity: 0 }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
+            className="md:h-full md:flex md:flex-col md:justify-center"
           >
             <h3 className="text-2xl font-bold text-black dark:text-white">
               {testimonials[active].name}
@@ -103,18 +104,18 @@ export const AnimatedTestimonials = ({
             <p className="text-sm text-gray-500 dark:text-neutral-500">
               {testimonials[active].designation}
             </p>
-            <div className="flex flex-col gap-2 mt-4">
-              <div className="flex items-center gap-2 md:justify-center">
+            <div className="flex flex-col gap-2 mt-4 md:mt-8">
+              <div className="flex items-center gap-2 md:justify-start">
                 <p className="text-xl font-medium text-gray-700 dark:text-neutral-300">Connect on </p>
                 <SocialIcon url={testimonials[active].xLink} style={{ height: '20px', width: '20px' }} />
               </div>
-              <div className="flex items-center gap-2 md:justify-center">
+              <div className="flex items-center gap-2 md:justify-start">
                 <p className="text-xl font-medium text-gray-700 dark:text-neutral-300">Connect on </p>
                 <SocialIcon url={testimonials[active].linkedinLink} style={{ height: '20px', width: '20px' }} />
               </div>
             </div>
           </motion.div>
-          <div className="flex gap-4 pt-12 md:pt-0">
+          <div className="flex gap-4 pt-12 md:pt-8">
             <button
               onClick={handlePrev}
               className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
