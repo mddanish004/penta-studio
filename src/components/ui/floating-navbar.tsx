@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import * as React from "react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 
@@ -10,7 +10,7 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
+    icon?: React.ReactElement;
     onClick?: () => void;
   }[];
   className?: string;

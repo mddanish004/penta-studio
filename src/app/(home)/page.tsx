@@ -1,13 +1,8 @@
-import { FloatingNav } from "@/components/ui/floating-navbar";
-import { div } from "motion/react-client";
-import Image from "next/image";
 import { FloatingNavDemo } from "./components/FloatingNavDemo";
 import { BackgroundLinesDemo } from "./components/BackgroundLinesDemo";
 import { CardHoverEffectDemo } from "./components/CardHoverEffectDemo";
 import { AnimatedTestimonialsDemo } from "./components/AnimatedTestimonialsDemo";
 import { ContactUs } from "./components/ContactUs";
-
-
 
 export default function Home() {
   return (
