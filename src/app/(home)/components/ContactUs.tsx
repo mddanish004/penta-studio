@@ -7,6 +7,7 @@ import {
   IconBrandX,
   IconMail,
   IconBrandLinkedin,
+  IconBrandWhatsapp,
 } from "@tabler/icons-react";
 import { db } from "@/lib/firebase";
 import { collection, addDoc } from "firebase/firestore";
@@ -72,11 +73,11 @@ export function ContactUs() {
   };
 
   return (
-    <div className="shadow-input mx-auto w-full max-w-md rounded-none bg-white p-4 md:rounded-2xl md:p-8 dark:bg-black">
-      <h2 className="text-3xl text-center justify-center font-bold text-neutral-800 dark:text-neutral-200">
+    <div className="shadow-input mx-auto w-full max-w-md rounded-none bg-white p-4 md:rounded-2xl md:p-8 dark:bg-black my-8 sm:my-12">
+      <h2 className="text-2xl sm:text-3xl text-center justify-center font-bold text-neutral-800 dark:text-neutral-200">
         Contact Us
       </h2>
-      <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
+      <p className="mt-2 max-w-sm text-xs sm:text-sm text-neutral-600 dark:text-neutral-300">
         Tell us about your project and let&apos;s create something extraordinary.
       </p>
 
@@ -146,17 +147,13 @@ export function ContactUs() {
 
         <div className="my-8 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-300 to-transparent dark:via-neutral-700" />
 
-        <div className="flex flex-col space-y-4">
-          <a href="https://x.com/studiopentait" target="_blank" rel="noopener noreferrer">
-            <button
-              className="group/btn shadow-input relative flex h-10 w-full items-center justify-start space-x-2 rounded-md bg-gray-50 px-4 font-medium text-black dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626]"
-              type="button"
-            >
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <a href="https://x.com/pentastudio" target="_blank" rel="noopener noreferrer">
+            <button className="group/btn shadow-input relative flex h-10 w-full items-center justify-start space-x-2 rounded-md bg-gray-50 px-4 font-medium text-black dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626]">
               <IconBrandX className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
-              <span className="text-sm text-neutral-700 dark:text-neutral-300">
-                X
+              <span className="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300">
+                Twitter
               </span>
-              <BottomGradient />
             </button>
           </a>
           <a href="mailto:studiopentait@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -179,6 +176,18 @@ export function ContactUs() {
               <IconBrandLinkedin className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
               <span className="text-sm text-neutral-700 dark:text-neutral-300">
                 LinkedIn
+              </span>
+              <BottomGradient />
+            </button>
+          </a>
+          <a href="https://wa.link/k5c8b4" target="_blank" rel="noopener noreferrer">
+            <button
+              className="group/btn shadow-input relative flex h-10 w-full items-center justify-start space-x-2 rounded-md bg-gray-50 px-4 font-medium text-black dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626]"
+              type="button"
+            >
+              <IconBrandWhatsapp className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
+              <span className="text-sm text-neutral-700 dark:text-neutral-300">
+                WhatsApp
               </span>
               <BottomGradient />
             </button>

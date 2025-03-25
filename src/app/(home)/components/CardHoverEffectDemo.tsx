@@ -2,8 +2,8 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
-      <h2 className="text-3xl font-bold text-white shadow-lg text-center justify-center">
+    <div className="max-w-5xl mx-auto px-4 sm:px-8 py-8 sm:py-12">
+      <h2 className="text-2xl sm:text-3xl font-bold text-white shadow-lg text-center justify-center mb-6">
         Our Services
       </h2>
       <HoverEffect items={projects} />

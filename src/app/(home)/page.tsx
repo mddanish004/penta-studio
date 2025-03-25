@@ -6,19 +6,18 @@ import { ContactUs } from "./components/ContactUs";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen w-full overflow-hidden space-y-8 sm:space-y-12">
       <FloatingNavDemo/>
-      <div id="home">
+      <div id="home" className="min-h-[90vh]">
         <BackgroundLinesDemo/>
       </div>
       <div id="services">
         <CardHoverEffectDemo/>
       </div>
-      <br />
       <div id="team">
         <AnimatedTestimonialsDemo/>
       </div>
-      <div id="contact">
+      <div id="contact" className="px-4 sm:px-8">
         <ContactUs/>
       </div>
     </div>

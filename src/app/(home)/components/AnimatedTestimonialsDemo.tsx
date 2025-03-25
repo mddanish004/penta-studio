@@ -42,11 +42,13 @@ export function AnimatedTestimonialsDemo() {
   ];
 
   return (
-    <div>
-      <h2 className="text-3xl font-bold text-white shadow-lg text-center justify-center">
+    <div className="py-8 sm:py-12">
+      <h2 className="text-2xl sm:text-3xl font-bold text-white shadow-lg text-center justify-center mb-6">
         Our Team
       </h2>
-      <AnimatedTestimonials testimonials={testimonials} />
+      <div className="px-4 sm:px-0">
+        <AnimatedTestimonials testimonials={testimonials} />
+      </div>
     </div>
   );
 }

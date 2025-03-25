@@ -104,11 +104,11 @@ export const AnimatedTestimonials = ({
               {testimonials[active].designation}
             </p>
             <div className="flex flex-col gap-2 mt-4">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 md:justify-center">
                 <p className="text-xl font-medium text-gray-700 dark:text-neutral-300">Connect on </p>
                 <SocialIcon url={testimonials[active].xLink} style={{ height: '20px', width: '20px' }} />
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 md:justify-center">
                 <p className="text-xl font-medium text-gray-700 dark:text-neutral-300">Connect on </p>
                 <SocialIcon url={testimonials[active].linkedinLink} style={{ height: '20px', width: '20px' }} />
               </div>
