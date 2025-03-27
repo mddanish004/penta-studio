@@ -8,36 +8,36 @@ export function AnimatedTestimonialsDemo() {
       name: "Md Danish Ansari",
       designation: "Full Stack Developer",
       src: "/images/danish.png",
-      xLink: "https://x.com/danish",
-      linkedinLink: "https://linkedin.com/in/danish"
+      xLink: "https://x.com/Md_Danish004",
+      linkedinLink: "https://www.linkedin.com/in/mddanish004/"
     },
     {
       name: "Sayan Guha",
       designation: "Backend Developer",
       src: "/images/sayan.png",
-      xLink: "https://x.com/sayan",
-      linkedinLink: "https://linkedin.com/in/sayan"
+      xLink: "#",
+      linkedinLink: "https://www.linkedin.com/in/sayanguha004/"
     },
     {
         name: "Kushal Biswas",
         designation: "Backend Developer",
         src: "/images/kushal.png",
-        xLink: "https://x.com/danish",
-        linkedinLink: "https://linkedin.com/in/danish"
+        xLink: "#",
+        linkedinLink: "#"
       },
       {
         name: "Koustav Naskar",
         designation: "Frontend Developer",
         src: "/images/koustav.png",
-        xLink: "https://x.com/danish",
-        linkedinLink: "https://linkedin.com/in/danish"
+        xLink: "#",
+        linkedinLink: "#"
       },
       {
         name: "Bishal Begani",
         designation: "UI/UX Designer | AI/ML specialist",
         src: "/images/bishal.png",
-        xLink: "https://x.com/danish",
-        linkedinLink: "https://linkedin.com/in/danish"
+        xLink: "#",
+        linkedinLink: "#"
       },
   ];
 
